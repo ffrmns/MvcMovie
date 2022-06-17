@@ -14,3 +14,4 @@ using MvcMovie.Models;
 
         public DbSet<MvcMovie.Models.Movie>? Movie { get; set; }
     }
+
