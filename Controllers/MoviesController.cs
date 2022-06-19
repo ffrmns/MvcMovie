@@ -33,13 +33,6 @@ namespace MvcMovie.Controllers
                           Problem("Entity set 'MvcMovieContext.Movie'  is null.");
         }
 
-        // POST: Movies
-        [HttpPost]
-        public string Index(string searchString, bool notUsed)
-        {
-          return "From [HttpPost]Index: filter on " + searchString;
-        }
-
         // GET: Movies/Details/5
         public async Task<IActionResult> Details(int? id)
         {
